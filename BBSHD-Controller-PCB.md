@@ -53,3 +53,14 @@ P121 | IN    | Hall W                 | Hall effect sensor signal W.
 P122 | IN    | Hall V                 | Hall effect sensor signal V.
 P150 | IN    | Motor power enable     | Signal from STC MCU to enable motor power.
 ?    | IN    | Battery voltage        | Not traced
+
+
+## Photos
+
+[[/img/controller_pcb/annotated/front.png|Front]]
+
+[[/img/controller_pcb/annotated/back.png|Back]]
+
+
+More detailed photos are available in the wiki repository, clone this git repository:
+https://github.com/danielnilsson9/bbshd-fw.wiki.git
