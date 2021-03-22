@@ -7,8 +7,7 @@
 1. Download and start the STC ISP Programming Tool. 
 2. Download the latest released firmware from the release page.
 3. Extract the archive and locate the firmware .hex file intended for your controller revision.
-
-
+4. TODO
 
 
 ## Linux
