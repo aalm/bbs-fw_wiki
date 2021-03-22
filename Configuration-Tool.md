@@ -89,6 +89,93 @@ Stop delay in milliseconds for when PAS shall disengage.
 ## Assist Levels
 [[/img/config_tool/config_tool4.png|Assist Levels]]
 
+Using this firmware makes it possible to use two sets of assist  
+level configurations. The intended use case is to have a "street legal"  
+mode along with a "offroad mode" switchable using the display remote.
+
+In the configuration tool this is called "Operation Mode". By selecting the  
+"Operation Mode Page" from the drop down you can edit each set of assist levels individually.
+
+How operation mode switching is performed is set by the "Operation Mode Toggle" drop down.
+
+
+**Assist Level Type**  
+Assist level type can be any of:
+* Motor Disabled
+  - Disable motor power.
+* PAS
+  - Only use PAS, disable throttle.
+* Throttle Only
+  - Only use throttle, disable PAS.
+* PAS & Throttle
+  - Use both PAS and throttle, throttle overrides PAS when throttle power is greater than PAS power.
+* Cruise
+  - Se info below.
+
+**Cruise**
+Cruise is a special mode where motor power is enabled even when neither throttle nor PAS is engaged.  
+
+WARNING: Use with caution!  
+NOTE: A throttle is reqiered to engage cruise mode.  
+
+When switching to a cruise assist level motor power will be shut off.
+
+To engage motor power:  
+1. Apply > 50%
+2. Pedal forwards until motor engaged.
+3. Release throttle and stop pedaling (if your want)
+
+To disengage cruise:  
+Pedal backwards, touch throttle or break (requires break sensors).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Event Log
 [[/img/config_tool/config_tool5.png|Event Log]]
