@@ -12,7 +12,7 @@
 
 
 ## Linux
-If you are running Linux you can try using the open source stcgal flashing software.
+If you are running Linux you can try using the open source stcgal flashing software.  
 https://github.com/grigorig/stcgal
 
 
