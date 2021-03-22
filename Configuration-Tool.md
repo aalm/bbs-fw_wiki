@@ -1,1 +1,5 @@
 [[/img/config_tool/config_tool1.png|Connect]]
+[[/img/config_tool/config_tool2.png|Connected]]
+[[/img/config_tool/config_tool3.png|System]]
+[[/img/config_tool/config_tool4.png|Assist Levels]]
+[[/img/config_tool/config_tool5.png|Event Log]]
