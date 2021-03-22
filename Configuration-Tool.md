@@ -1,1 +1,1 @@
-todo
+[[/img/config_tool/config_tool1.png|Connect]]
