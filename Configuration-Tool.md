@@ -114,7 +114,7 @@ Assist level type can be any of:
 * PAS & Throttle
   - Use both PAS and throttle, throttle overrides PAS when throttle power is greater than PAS power.
 * Cruise
-  - Se info below.
+  - See info below.
 
 **Cruise**  
 Cruise is a special mode where motor power is enabled even when neither throttle nor PAS is engaged.  
