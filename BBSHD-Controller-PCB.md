@@ -10,9 +10,10 @@ V1.5     | IAP15W4K61S4 | ~2019       | V1.4 printed on PCB
 
 
 
-## Pinout
+## Microcontrollers
 
 ### STC
+Running at 4.3V
 
 PIN  | Type  | Function               | Comment
 -----| ----- | -----------------------| --------------------
@@ -37,6 +38,7 @@ P5.0 | IN    | Hall U                 | Hall effect sensor signal U.
 
 
 ### NEC
+Running at 5V
 
 PIN  | Type  | Function               | Comment
 -----| ----- | -----------------------| --------------------
