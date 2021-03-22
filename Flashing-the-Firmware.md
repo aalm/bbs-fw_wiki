@@ -16,7 +16,7 @@ I am not responsible if you brick your controller.
 * [STC ISP Programming Software](http://www.stcmicro.com/rjxz.html)
 * Programming Cable
 
-## Downloads and Flash
+## Download and Flash
 1. Download and start the STC ISP Programming Tool. 
 2. Download the latest released firmware from the release page.
 3. Extract the archive and locate the firmware .hex file intended for your controller revision.
