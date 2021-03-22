@@ -149,8 +149,32 @@ NOTE:
 This is road speed limiting and not PAS cadence rpm limiting as in original bafang firmware.  
 Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
+
+**Operation Mode Toggle**
+Select how to toggle between the two operation modes.
+
+Available options:
+* Off
+  - Do not toggle, only use Standard mode.
+* Sport Button
+  - Toggle by engagin sport mode on the display (available on early DPC-18 models and Bafang displays configured for the Ultra).
+* Lights Button
+  - If you are not using external lights, use the ligts button to toggle between operation modes.
+* PAS0 + Lights Button
+  - If you are in PAS0 then Lights button control operation mode, otherwise it controls external lights.
+
+**Startup Assist Level**  
+Select which assist level (from the standard operation mode) that the controller    
+will start in when no display is connected.
+
+It could be a good idea to set this to something reasonable in case your display breaks  
+mid ride and you want to get home. Your can regard this as your limp home mode.
+
+In case you are not using a display you will only have one assist level and it is the one your configure here.
+
+
 ### Export/Import
-To save a copy of your configuration to file, select Menu -> File -> Save As...
+To save a copy of your configuration to file, select Menu -> File -> Save As...  
 To import a configuration from file, select Menu -> File -> Open...
 
 ## Event Log
