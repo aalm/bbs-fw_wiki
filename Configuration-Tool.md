@@ -11,6 +11,10 @@
 
 If everything works it should now say "Connected: Yes" and report the current firmware version.
 
+To read configuration currently in flash, select Menu -> Flash -> Read.
+To write configuration to flash, select Menu -> Flash -> Write.
+To restore configuration in flash to default, select Menu -> Flash -> Reset.
+
 ## System Parameters
 [[/img/config_tool/config_tool3.png|System]]
 
@@ -112,7 +116,7 @@ Assist level type can be any of:
 * Cruise
   - Se info below.
 
-**Cruise**
+**Cruise**  
 Cruise is a special mode where motor power is enabled even when neither throttle nor PAS is engaged.  
 
 WARNING: Use with caution!  
@@ -121,61 +125,37 @@ NOTE: A throttle is reqiered to engage cruise mode.
 When switching to a cruise assist level motor power will be shut off.
 
 To engage motor power:  
-1. Apply > 50%
-2. Pedal forwards until motor engaged.
-3. Release throttle and stop pedaling (if your want)
+1. Apply > 50% throttle.
+2. Pedal forwards until motor power is engaged.
+3. Release throttle and stop pedaling (if your want).
 
 To disengage cruise:  
 Pedal backwards, touch throttle or break (requires break sensors).
 
 
+**Target Current**  
+Target current for assist level, only applies to PAS and Cruise.
+The is the % of max current that will be feed to the motor for this assist level.
 
+**Max Throttle**  
+This is the % of max current that will be feed to the motor when max throttle is applied.
+Only applies to throttle assist levels.
 
+**Max Speed**  
+This is the % of max configured road speed for this assist level.
+Going faster than this will reduce motor power.
 
+NOTE:  
+This is road speed limiting and not PAS cadence rpm limiting as in original bafang firmware.  
+Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Export/Import
+To save a copy of your configuration to file, select Menu -> File -> Save As...
+To import a configuration from file, select Menu -> File -> Open...
 
 ## Event Log
 [[/img/config_tool/config_tool5.png|Event Log]]
+
+Event log for troubleshooting an general info.  
+To get full log of controller initialization, power off controller,  
+then connect config tool and then power on controller.
