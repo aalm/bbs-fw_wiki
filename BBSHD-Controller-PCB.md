@@ -62,5 +62,5 @@ P150 | IN    | Motor power enable     | Signal from STC MCU to enable motor powe
 [[/img/controller_pcb/annotated/back.png|Back]]
 
 
-More detailed photos are available in the wiki repository, clone this git repository:
+More detailed photos are available in the wiki repository, clone this git repository:  
 https://github.com/danielnilsson9/bbshd-fw.wiki.git
