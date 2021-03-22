@@ -23,7 +23,7 @@ P2.3 | OUT   | External lights        | Controls power to secondary power pcb to
 P2.4 | IN    | Brake                  | 5V. Active low. Also connected directly to NEC MCU.
 P3.0 | UART1 | RX                     | 5V. External UART rx line for display communication.
 P3.1 | UART1 | TX                     | 5V. External UART tx line for display communication.
-P4.4 | OUT   | Motor control enable.  | Signal to NEC MCU to enable motor control (should be kept high).
+P4.4 | OUT   | Motor control enable   | Signal to NEC MCU to enable motor control (should be kept high).
 
 
 
