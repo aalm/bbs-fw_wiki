@@ -1,11 +1,11 @@
 ## Connect
 [[/img/config_tool/config_tool1.png|Connect]]
 
-* Power of your controller.
-* Connect your controller to your computer using the bafang programming cable.
-* Select the COM port corresponding to your controller in the list to the left.
-* Click "Connect".
-* Power on your controller.
+1. Power of your controller.
+2. Connect your controller to your computer using the bafang programming cable.
+3. Select the COM port corresponding to your controller in the list to the left.
+4. Click "Connect".
+5. Power on your controller.
 
 [[/img/config_tool/config_tool2.png|Connected]]
 
