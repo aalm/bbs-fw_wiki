@@ -1,6 +1,6 @@
 The bbshd-fw firmware only replaces the firmware on the main STC microcontroller.  
-The firmware for the additional NEC 79F9211 is thus untouched. This controller implements  
-BLDC motor control and exports a simplified interface for control.
+The firmware for the additional NEC 79F9211, which implements BLDC motor control  
+and exports a simplified interface for control, is thus untouched.
 
 # Serial Protocol
 
