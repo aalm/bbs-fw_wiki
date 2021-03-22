@@ -2,7 +2,7 @@
 [[/img/config_tool/config_tool1.png|Connect]]
 
 1. Power of your controller.
-2. Connect your controller to your computer using the bafang programming cable.
+2. Connect your controller to your computer using the Bafang programming cable.
 3. Select the COM port corresponding to your controller in the list to the left.
 4. Click "Connect".
 5. Power on your controller.
@@ -95,7 +95,7 @@ Stop delay in milliseconds for when PAS shall disengage.
 
 Using this firmware makes it possible to use two sets of assist  
 level configurations. The intended use case is to have a "street legal"  
-mode along with a "offroad mode" switchable using the display remote.
+mode along with an "off-road mode" switchable using the display remote.
 
 In the configuration tool this is called "Operation Mode". By selecting the  
 "Operation Mode Page" from the drop down you can edit each set of assist levels individually.
@@ -120,7 +120,7 @@ Assist level type can be any of:
 Cruise is a special mode where motor power is enabled even when neither throttle nor PAS is engaged.  
 
 WARNING: Use with caution!  
-NOTE: A throttle is reqiered to engage cruise mode.  
+NOTE: A throttle is required to engage cruise mode.  
 
 When switching to a cruise assist level motor power will be shut off.
 
@@ -146,7 +146,7 @@ This is the % of max configured road speed for this assist level.
 Going faster than this will reduce motor power.
 
 NOTE:  
-This is road speed limiting and not PAS cadence rpm limiting as in original bafang firmware.  
+This is road speed limiting and not PAS cadence rpm limiting as in original Bafang firmware.  
 Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
 
@@ -157,9 +157,9 @@ Available options:
 * Off
   - Do not toggle, only use Standard mode.
 * Sport Button
-  - Toggle by engagin sport mode on the display (available on early DPC-18 models and Bafang displays configured for the Ultra).
+  - Toggle by engaging sport mode on the display (available on early DPC-18 models and Bafang displays configured for the Ultra).
 * Lights Button
-  - If you are not using external lights, use the ligts button to toggle between operation modes.
+  - If you are not using external lights, use the lights button to toggle between operation modes.
 * PAS0 + Lights Button
   - If you are in PAS0 then Lights button control operation mode, otherwise it controls external lights.
 
