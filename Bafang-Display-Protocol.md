@@ -5,6 +5,17 @@ and is full of inconsistencies.
 
 ## Serial Protocol
 
+Rules:
+* Read requests starts with 0x11
+* Write requests starts with 0x16
+
+The next byte is an opcode for the type of operation.
+
+
+
+
+
+
 
 
 
