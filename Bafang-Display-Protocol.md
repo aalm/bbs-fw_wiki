@@ -39,7 +39,7 @@ Code  | Description
 **Request**  
 11 0A
 
-**Response**
+**Response**  
 XX CC
 
 Where XX is current in amps x 2 and CC is checksum which is XX.
