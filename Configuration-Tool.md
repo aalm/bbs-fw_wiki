@@ -180,6 +180,5 @@ To import a configuration from file, select Menu -> File -> Open...
 ## Event Log
 [[/img/config_tool/config_tool5.png|Event Log]]
 
-Event log for troubleshooting and general info.  
-To get full log of controller initialization, power off controller,  
-then connect config tool and then power on controller.
+Event log for troubleshooting and general info. To get full log of controller  
+initialization, power off controller, then connect config tool before powering on controller.
