@@ -119,8 +119,8 @@ Assist level type can be any of:
 **Cruise**  
 Cruise is a special mode where motor power is enabled even when neither throttle nor PAS is engaged.  
 
-WARNING: Use with caution!  
-NOTE: A throttle is required to engage cruise mode.  
+_**WARNING:**_ Use with caution!  
+_**NOTE:**_ A throttle is required to engage cruise mode.  
 
 When switching to a cruise assist level motor power will be shut off.
 
@@ -145,7 +145,7 @@ Only applies to throttle assist levels.
 This is the % of max configured road speed for this assist level.
 Going faster than this will reduce motor power.
 
-NOTE:  
+_**NOTE:  **_
 This is road speed limiting and not PAS cadence rpm limiting as in original Bafang firmware.  
 Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
@@ -162,6 +162,15 @@ Available options:
   - If you are not using external lights, use the lights button to toggle between operation modes.
 * PAS0 + Lights Button
   - If you are in PAS0 then Lights button control operation mode, otherwise it controls external lights.
+
+_**NOTE:**_
+Some versions of the DPC18 display have a firmware with very slow switching on/off of lights,  
+it can take up to 10 seconds between display indicating light status and message sent to controller.
+
+_**WARNING:**_
+If you have a display with an automatic light sensor you should turn it off in display settings  
+in order to not have your display automatically switching operation mode which can be dangerous.
+
 
 **Startup Assist Level**  
 Select which assist level (from the standard operation mode) that the controller    
