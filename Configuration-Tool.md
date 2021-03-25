@@ -145,7 +145,7 @@ Only applies to throttle assist levels.
 This is the % of max configured road speed for this assist level.
 Going faster than this will reduce motor power.
 
-_**NOTE:  **_
+_**NOTE:**_
 This is road speed limiting and not PAS cadence rpm limiting as in original Bafang firmware.  
 Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
