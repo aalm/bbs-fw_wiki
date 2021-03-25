@@ -150,7 +150,7 @@ This is road speed limiting and not PAS cadence rpm limiting as in original Bafa
 Limiting PAS cadence rpm is currently not supported but if there is demand it can be added.
 
 
-**Operation Mode Toggle**
+**Operation Mode Toggle**  
 Select how to toggle between the two operation modes.
 
 Available options:
