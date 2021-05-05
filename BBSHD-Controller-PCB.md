@@ -15,7 +15,7 @@ Different firmware required due to small change in eeprom layout.
 ## Microcontrollers
 
 ### STC
-Running at 4.3V
+Running at 5.0V
 
 PIN  | Type  | Function               | Comment
 -----| ----- | -----------------------| --------------------
@@ -40,7 +40,7 @@ P5.0 | IN    | Hall U                 | Hall effect sensor signal U.
 
 
 ### NEC
-Running at 5V
+Running at 5.0V
 
 PIN  | Type  | Function               | Comment
 -----| ----- | -----------------------| --------------------
