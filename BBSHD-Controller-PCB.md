@@ -30,6 +30,7 @@ P2.1 | OUT   | Motor control enable   | Signal to NEC MCU to enable motor contro
 P2.2 | IN    | Speed sensor           | 5V. Speed sensor signal.
 P2.3 | OUT   | External lights        | Controls power to secondary power pcb to drive external lights.
 P2.4 | IN    | Brake                  | 5V. Active low. Also connected directly to NEC MCU.
+P2.6 | IN    | Gear Sensor            | 5V. Active low.
 P3.0 | UART1 | RX                     | 5V. External UART rx line for display communication.
 P3.1 | UART1 | TX                     | 5V. External UART tx line for display communication.
 P3.4 | IN    | Hall V                 | Hall effect sensor signal V.
