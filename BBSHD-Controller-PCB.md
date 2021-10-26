@@ -28,7 +28,7 @@ P1.7 | ADC7  | Controller temperature | Controller temperature reading, see sche
 P2.0 | OUT   | Motor power enable     | Signal to NEC MCU to enable motor power.
 P2.1 | OUT   | Motor control enable   | Signal to NEC MCU to enable motor control (should be kept high).
 P2.2 | IN    | Speed sensor           | 5V. Speed sensor signal.
-P2.3 | OUT   | External lights        | Controls power to secondary power pcb to drive external lights.
+P2.3 | OUT   | External lights        | Controls signal for external lights. Active low.
 P2.4 | IN    | Brake                  | 5V. Active low. Also connected directly to NEC MCU.
 P2.6 | IN    | Gear Sensor            | 5V. Active low.
 P3.0 | UART1 | RX                     | 5V. External UART rx line for display communication.
@@ -38,6 +38,7 @@ P4.4 | OUT   | Motor control enable   | Signal to NEC MCU to enable motor contro
 P4.5 | IN    | PAS 1                  | Pedal assist sensor signal 1.
 P4.6 | IN    | PAS 2                  | Pedal assist sensor signal 2.
 P5.0 | IN    | Hall U                 | Hall effect sensor signal U.
+P5.1 | OUT   | External lights enable | Control transistor applying power to external lights PCB.
 
 
 ### NEC
