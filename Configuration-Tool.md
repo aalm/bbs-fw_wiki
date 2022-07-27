@@ -38,11 +38,14 @@ Does not apply to throttle signal.
 Low voltage detection for when to cut power to motor to protect battery.  
 A value of 42V is reasonable for a 52V battery.
 
+`Default: 42`
+
 **Max Speed**  
 Maximum speed (if using speed sensor) in km/h.  
 Units can be change to imperial from Menu -> Options -> Units.  
-This value will be used, whatever is configured in display is ignored.
+This value will be used, the value that can be configured in the display is ignored.
 
+`Default: 100`
 
 ### Features
 **Use Display**  
@@ -50,17 +53,21 @@ Uncheck if you are not using a display.
 A display is not required, if the display malfunctions the motor will still work (even if this  
 is checked) using your startup configuration set in the "Assist Levels" tab.
 
+`Default: true`
+
 **Speed Sensor**  
 Uncheck if you do not intend to use the speed sensor.  
 Configured max speed will then have no effect.
 
 If your speed sensor malfunctions your motor will still work even if this box is checked.
 
+`Default: true`
 
 **Push Walk**  
 Uncheck if you want to disable the push walk function.  
 Using push walk without a speed sensor will not be ideal.
 
+`Default: true`
 
 ### Throttle
 
@@ -70,15 +77,21 @@ Setting lower than the minimum voltage signal from the throttle will
 result in an error and the throttle will not work.  
 Default should be good for the standard thumb throttle.
 
+`Default: 900`
+
 **End Voltage**  
 End voltage of throttle signal in millivolts.  
 Setting this higher than the maximum signal from the throttle  
 will make it impossible to reach maximum power.  
 Default should be good for the standard thumb throttle.
 
+`Default: 3600`
+
 **Start Current**  
 Minimum power to apply for lowest throttle input.  
 Setting this to 10% will map throttle range to 10-100% power output.
+
+`Default: 1`
 
 ### Speed Sensor
 
