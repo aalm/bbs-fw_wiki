@@ -206,16 +206,18 @@ _**WARNING:**_
 If you have a display with an automatic light sensor you should turn it off in display settings  
 in order to not have your display automatically switching operation mode which can be dangerous.
 
+`Default: Off`
 
 **Startup Assist Level**  
 Select which assist level (from the standard operation mode) that the controller    
 will start in when no display is connected.
 
-It could be a good idea to set this to something reasonable in case your display breaks  
+It could be a good idea to set this to something reasonable in case your display malfunctions  
 mid ride and you want to get home. Your can regard this as your limp home mode.
 
 In case you are not using a display you will only have one assist level and it is the one your configure here.
 
+`Default: 3`
 
 ### Export/Import
 To save a copy of your configuration to file, select Menu -> File -> Save As...  
