@@ -26,7 +26,7 @@ I am not responsible if you brick your controller.
 and click "Check MCU" and the power on your controller to verify.  
 Log should say "Complete!" if connection was successful.  
 Verify that "MCU Type" did not change, if so, check revision/mcu mapping table [here](https://github.com/danielnilsson9/bbshd-fw/wiki/BBSHD-Controller-PCB) again, do not procced if incorrect.
-7. Set flashing parameters according to image below, pay special attention to highlighted areas.  
+7. Set flashing parameters according to image below (very important!), pay special attention to highlighted areas.  
 NOTE: Selected MCU Type in image below is for controller revision 1.5.
 8. Open firmware file by clicking "Open Code File" button.
 9. Power of controller.
@@ -35,6 +35,7 @@ NOTE: Selected MCU Type in image below is for controller revision 1.5.
 
 
 If you have trouble flashing, try to deselect "Using fast download mode".
+If it fails, try again, it is a bit unstable.
 
 [[/img/flash_tool.png|Flash Tool]]
 
