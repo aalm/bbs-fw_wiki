@@ -24,33 +24,50 @@ To restore configuration in flash to default, select Menu -> Flash -> Reset.
 Maximum current to draw from the battery, max 33A  (limited by  
 secondary NEC microcontroller, cannot be increased further). 
 
+`Default: 30`
+
+**Current Ramp**  
+Current ramp up in Amps per second when engaging PAS or Cruise.  
+This parameter controls the acceleration to desired assist level.  
+A lower value will give slower acceleration.
+Does not apply to throttle signal.
+
+`Default: 15`
+
 **Low Voltage Cutoff**  
 Low voltage detection for when to cut power to motor to protect battery.  
 A value of 42V is reasonable for a 52V battery.
 
+`Default: 42`
+
 **Max Speed**  
 Maximum speed (if using speed sensor) in km/h.  
 Units can be change to imperial from Menu -> Options -> Units.  
-This will be overridden by what is configured in the Bafang display if a display is used.
+This value will be used, the value that can be configured in the display is ignored.
 
+`Default: 100`
 
 ### Features
 **Use Display**  
 Uncheck if you are not using a display.  
-A display is not required, if the display breaks the motor will still work (even if this  
+A display is not required, if the display malfunctions the motor will still work (even if this  
 is checked) using your startup configuration set in the "Assist Levels" tab.
+
+`Default: true`
 
 **Speed Sensor**  
 Uncheck if you do not intend to use the speed sensor.  
 Configured max speed will then have no effect.
 
-If your speed sensor breaks your motor will still work even if this box is checked.
+If your speed sensor malfunctions your motor will still work even if this box is checked.
 
+`Default: true`
 
 **Push Walk**  
 Uncheck if you want to disable the push walk function.  
 Using push walk without a speed sensor will not be ideal.
 
+`Default: true`
 
 ### Throttle
 
@@ -60,25 +77,35 @@ Setting lower than the minimum voltage signal from the throttle will
 result in an error and the throttle will not work.  
 Default should be good for the standard thumb throttle.
 
+`Default: 900`
+
 **End Voltage**  
 End voltage of throttle signal in millivolts.  
 Setting this higher than the maximum signal from the throttle  
 will make it impossible to reach maximum power.  
 Default should be good for the standard thumb throttle.
 
+`Default: 3600`
+
 **Start Current**  
 Minimum power to apply for lowest throttle input.  
 Setting this to 10% will map throttle range to 10-100% power output.
 
+`Default: 1`
+
 ### Speed Sensor
 
 **Wheel Size**  
-Wheel size to use for speed calculations. If you are using a display,  
+Wheel size (in inch) to use for speed calculations. If you are using a display,  
 make sure you set this to the same value as configured in the display.
+
+`Default: 28`
 
 **Signals**  
 Number of speed sensor signals per wheel rotation.  
 Set this to the number of evenly spaced magnets you have on your wheel.
+
+`Default: 1`
 
 
 ### Pedal Assist
@@ -86,8 +113,13 @@ Set this to the number of evenly spaced magnets you have on your wheel.
 **Start Delay**  
 Start delay in degrees for when PAS shall engage.
 
+`Default: 75`
+
 **Stop Delay**  
-Stop delay in milliseconds for when PAS shall disengage.
+Stop delay in milliseconds for when PAS shall disengage  
+when no pedaling is detected.
+
+`Default: 200`
 
 
 ## Assist Levels
@@ -95,7 +127,7 @@ Stop delay in milliseconds for when PAS shall disengage.
 
 Using this firmware makes it possible to use two sets of assist  
 level configurations. The intended use case is to have a "street legal"  
-mode along with an "off-road mode" switchable using the display remote.
+mode along with an "off-road" mode switchable using the display remote.
 
 In the configuration tool this is called "Operation Mode". By selecting the  
 "Operation Mode Page" from the drop down you can edit each set of assist levels individually.
