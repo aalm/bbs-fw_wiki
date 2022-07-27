@@ -37,7 +37,7 @@ A value of 42V is reasonable for a 52V battery.
 **Max Speed**  
 Maximum speed (if using speed sensor) in km/h.  
 Units can be change to imperial from Menu -> Options -> Units.  
-This will be overridden by what is configured in the Bafang display if a display is used.
+This value will be used, whatever is configured in display is ignored.
 
 
 ### Features
