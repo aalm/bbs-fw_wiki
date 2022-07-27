@@ -113,8 +113,13 @@ Set this to the number of evenly spaced magnets you have on your wheel.
 **Start Delay**  
 Start delay in degrees for when PAS shall engage.
 
+`Default: 75`
+
 **Stop Delay**  
-Stop delay in milliseconds for when PAS shall disengage.
+Stop delay in milliseconds for when PAS shall disengage  
+when no pedaling is detected.
+
+`Default: 200`
 
 
 ## Assist Levels
@@ -122,7 +127,7 @@ Stop delay in milliseconds for when PAS shall disengage.
 
 Using this firmware makes it possible to use two sets of assist  
 level configurations. The intended use case is to have a "street legal"  
-mode along with an "off-road mode" switchable using the display remote.
+mode along with an "off-road" mode switchable using the display remote.
 
 In the configuration tool this is called "Operation Mode". By selecting the  
 "Operation Mode Page" from the drop down you can edit each set of assist levels individually.
