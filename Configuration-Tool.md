@@ -166,25 +166,24 @@ Pedal backwards, touch throttle or break (requires break sensors).
 
 
 **Target Current**  
-Target current for assist level, only applies to PAS and Cruise.
+Target current for assist level, only applies to PAS and Cruise.  
 The is the % of max current that will be feed to the motor for this assist level.
 
 **Max Throttle**  
-This is the % of max current that will be feed to the motor when max throttle is applied.
+This is the % of max current that will be feed to the motor when max throttle is applied.  
 Only applies to throttle assist levels.
 
-**Max Cadence**
+**Max Cadence**  
 This parameter controls how fast the pedals are allowed to spin.  
 Max cadence for BBSHD is around 150rpm. This parameter was called "speed"  
 in the original Bafang firmware.
 
 **Max Speed**  
-This is the % of max configured road speed for this assist level.
+This is the % of max configured road speed for this assist level.  
 Going faster than this will reduce motor power.
 
 Example: If global max speed is configured to 100km/h and this is  
 configured to 25% then max speed is 25km/h.
-
 
 **Operation Mode Toggle**  
 Select how to toggle between the two operation modes.
