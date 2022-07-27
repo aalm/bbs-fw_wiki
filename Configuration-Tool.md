@@ -43,14 +43,14 @@ This value will be used, whatever is configured in display is ignored.
 ### Features
 **Use Display**  
 Uncheck if you are not using a display.  
-A display is not required, if the display breaks the motor will still work (even if this  
+A display is not required, if the display malfunctions the motor will still work (even if this  
 is checked) using your startup configuration set in the "Assist Levels" tab.
 
 **Speed Sensor**  
 Uncheck if you do not intend to use the speed sensor.  
 Configured max speed will then have no effect.
 
-If your speed sensor breaks your motor will still work even if this box is checked.
+If your speed sensor malfunctions your motor will still work even if this box is checked.
 
 
 **Push Walk**  
