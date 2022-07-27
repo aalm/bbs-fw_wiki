@@ -174,9 +174,9 @@ This is the % of max current that will be feed to the motor when max throttle is
 Only applies to throttle assist levels.
 
 **Max Cadence**  
-This parameter controls how fast the pedals are allowed to spin.  
-Max cadence for BBSHD is around 150rpm. This parameter was called "speed"  
-in the original Bafang firmware.
+Cadence in % of maximum. This parameter controls how fast the pedals  
+are allowed to spin. Max cadence for BBSHD is around 150rpm.  
+This parameter was called "speed" in the original Bafang firmware.
 
 **Max Speed**  
 This is the % of max configured road speed for this assist level.  
