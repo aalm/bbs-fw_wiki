@@ -96,12 +96,16 @@ Setting this to 10% will map throttle range to 10-100% power output.
 ### Speed Sensor
 
 **Wheel Size**  
-Wheel size to use for speed calculations. If you are using a display,  
+Wheel size (in inch) to use for speed calculations. If you are using a display,  
 make sure you set this to the same value as configured in the display.
+
+`Default: 28`
 
 **Signals**  
 Number of speed sensor signals per wheel rotation.  
 Set this to the number of evenly spaced magnets you have on your wheel.
+
+`Default: 1`
 
 
 ### Pedal Assist
