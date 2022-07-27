@@ -24,6 +24,12 @@ To restore configuration in flash to default, select Menu -> Flash -> Reset.
 Maximum current to draw from the battery, max 33A  (limited by  
 secondary NEC microcontroller, cannot be increased further). 
 
+**Current Ramp**
+Current ramp up in Amps per second when engaging PAS or Cruise.
+This parameter controls the acceleration to desired assist level.
+A lower value will give slower acceleration. Default is 15 A/s.
+Does not apply to throttle signal.
+
 **Low Voltage Cutoff**  
 Low voltage detection for when to cut power to motor to protect battery.  
 A value of 42V is reasonable for a 52V battery.
