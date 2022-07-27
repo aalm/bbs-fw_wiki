@@ -20,11 +20,11 @@ To restore configuration in flash to default, select Menu -> Flash -> Reset.
 
 ### Global
 
-**Max Current**
+**Max Current**  
 Maximum current to draw from the battery, max 33A  (limited by  
 secondary NEC microcontroller, cannot be increased further). 
 
-**Current Ramp**
+**Current Ramp**  
 Current ramp up in Amps per second when engaging PAS or Cruise.
 This parameter controls the acceleration to desired assist level.
 A lower value will give slower acceleration. Default is 15 A/s.
