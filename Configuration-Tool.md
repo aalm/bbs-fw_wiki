@@ -145,6 +145,8 @@ Assist level type can be any of:
   - Only use throttle, disable PAS.
 * PAS & Throttle
   - Use both PAS and throttle, throttle overrides PAS when throttle power is greater than PAS power.
+* Variable PAS
+  - Pedal assist mode where throttle is used to change assist power. Basically behaves as a throttle mode where you have to pedal to receive any power.
 * Cruise
   - See info below.
 
