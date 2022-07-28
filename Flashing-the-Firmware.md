@@ -34,7 +34,6 @@ NOTE: Selected MCU Type in image below is for controller revision 1.5.
 11. The flash operation should start.
 
 
-If you have trouble flashing, try to deselect "Using fast download mode".
 If it fails, try again, it is a bit unstable.
 
 [[/img/flash_tool.png|Flash Tool]]
