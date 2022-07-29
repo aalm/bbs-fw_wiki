@@ -45,7 +45,7 @@ Maximum speed (if using speed sensor) in km/h. Units can be change to imperial f
 Uncheck if you are not using a display. A display is not required, if the display malfunctions the motor will still work (even if this is checked) using your startup configuration set in the "Assist Levels" tab.
 
 _**NOTE:**_ If you want to run without a display you need a cable to bridge the brown and orange wires of the display cable plug in order to provide power to the controller.
-[[/img/wiring.jpeg|Wiring]]
+[[/img/wiring.jpg|Wiring]]
 
 `Default: true`
 
