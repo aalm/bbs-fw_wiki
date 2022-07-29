@@ -1,13 +1,10 @@
 ## Warning
-Procced with caution. There is no original firmware for controller revision 1.4 available  
-so if you flash this firmware on controller revision 1.4 there is no turning back.
-
-If you have controller revision 1.5 you should be able to flash the original firmware again.
+Proceed with caution. It is a good idea to have access to the original firmware if you for any reason want to roll back.
+Contact me if you need help with this.
 
 If you have any other controller revision than 1.4 or 1.5, DO NOT PROCEED unless you can accept bricking your controller.  
 If you have verified this firmware working on older revisions, please let me know.  
-If you have an older revision, run "Check MCU" and let me know the  
-output and I may be able to tell if is could work or not.
+If you have an older revision, run "Check MCU" and let me know the output and I may be able to tell if is could work or not.
 
 I am not responsible if you brick your controller.
 
@@ -34,7 +31,6 @@ NOTE: Selected MCU Type in image below is for controller revision 1.5.
 11. The flash operation should start.
 
 
-If you have trouble flashing, try to deselect "Using fast download mode".
 If it fails, try again, it is a bit unstable.
 
 [[/img/flash_tool.png|Flash Tool]]
