@@ -6,7 +6,6 @@
 ## Build Firmware
 1. Install SDCC, make sure to check the box to add the compiler to your PATH
 2. Install Make for Windows (not needed if you already have make through cygwin/msys2 etc.)
-3. Open the "makefile" located in the firmware source directory and set TARGET_MCU correctly for you controller revision.
 3. Open cmd window and run make inside the firmware source directory
 
 ## Build Configuration Tool
