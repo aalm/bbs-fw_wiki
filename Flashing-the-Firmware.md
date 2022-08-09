@@ -20,7 +20,7 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 4. Connect you controller to your comuter using the programming cable.
 5. Select the correct COM port in the STC ISP programming tool.
 6. Power of your controller. Set MCU Type according to you controller revision  
-and click "Check MCU" and the power on your controller to verify.  
+and click "Check MCU" and then power on your controller to verify.  
 Log should say "Complete!" if connection was successful.  
 Verify that "MCU Type" did not change, if so, check revision/mcu mapping table [here](https://github.com/danielnilsson9/bbshd-fw/wiki/BBSHD-Controller-PCB) again, do not procced if incorrect.
 7. Set flashing parameters according to image below (very important!), pay special attention to highlighted areas.  
