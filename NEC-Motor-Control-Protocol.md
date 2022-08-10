@@ -69,13 +69,13 @@ Request  | Response | Interpretation
 
 B7 | B6 | B5                | B4 | B3                 | B2                     | B1 | B0
 -- | -- | ----------------- | -- | ------------------ | ---------------------- | -- | --------------------
- ? | ?  | Hall Sensor Fault | ?  | Low Voltage Cutoff | Motor Ctrl Disabled    | ?  | Motor Ctrl Disabled
+ ? | ?  | Hall Sensor Fault | ?  | Low Voltage Cutoff | Motor Ctrl Disabled    | ?  | Brake
  
  #### Byte 2
 
 B7 | B6 | B5 | B4 | B | B2                   | B1 | B0
 -- | ---| -- | -- | - | -------------------- | -- | --
- ? | ?  | ?  | ?  | ? | Current Sense Fault  | ?  | Brake
+ ? | ?  | ?  | ?  | ? | Current Sense Fault  | ?  | ?
 
 Bit 7 of byte 2 is set initially on startup if current sense error is present. Cleared when motor move signal is received leaving only current sense error. There is supposed to be a motor phase error code according to the display error list but I cannot triggers it in any way to find it.
 It might not be present on the BBS line or the fault detection was implemented in the STC microcontroller.
