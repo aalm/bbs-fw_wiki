@@ -1,5 +1,5 @@
 ## Requirements
-* [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
+* [Make for Windows](http://gnuwin32.sourceforge.net/downlinks/make.php)
 * [SDCC](http://sdcc.sourceforge.net/)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (to build configuration tool)
 
