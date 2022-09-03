@@ -16,7 +16,7 @@ Rules:
 STC MCU issues requests and NEC MCU responds, nothing is sent by NEC without a request.
 
 
-## Initialization (BBSHD)
+## Initialization
 
 STC MCU continuously resends first initialization command until NEC responds which takes a few tries.  
 During initialization the requests are echoed as response.
