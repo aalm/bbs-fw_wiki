@@ -16,7 +16,7 @@ Rules:
 STC MCU issues requests and NEC MCU responds, nothing is sent by NEC without a request.
 
 
-## Initialization
+## Initialization (BBSHD)
 
 STC MCU continuously resends first initialization command until NEC responds which takes a few tries.  
 During initialization the requests are echoed as response.
@@ -39,6 +39,8 @@ Request  | Response | Interpretation
 The parameters which have not been identified above are hardcoded in the standard firmware to these values.  
 It could potentially be motor parameters for FOC or current ramp up/down etc. I have no clue and have not  
 performed any further investigation.
+
+Param 0x68 is set to 0x5F on BBS02 instead of 0x5A (BBSHD).
 
 ## Commands
 
