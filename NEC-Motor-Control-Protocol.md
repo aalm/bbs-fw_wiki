@@ -48,7 +48,7 @@ Note: In table below the leading message header "AA" and trailing checksum has b
 
 Request  | Response | Interpretation
 -------- | -------- | --------------
-63 XX    | 63 XX    | Target Speed (0 - 255)
+63 XX    | 63 XX    | Target Speed (0 - 250) (not 255)
 64 XX    | 64 XX    | Target Current % (0 - 100), percent of max current
 
 
