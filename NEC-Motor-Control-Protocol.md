@@ -41,6 +41,8 @@ It could potentially be motor parameters for FOC or current ramp up/down etc. I 
 performed any further investigation.
 
 Param 0x68 is set to 0x5F on BBS02 instead of 0x5A (BBSHD).
+Param 0x60 has a different range on BBS02, 15.1 steps per volt instead of 14.6 (BBSHD).
+Param 0x61 has a different range on BBS02, 5.6 steps per amp instead of 6.9 (BBSHD).
 
 ## Commands
 
