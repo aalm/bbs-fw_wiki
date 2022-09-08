@@ -1,6 +1,7 @@
 ## Using BBSHD-FW
 [Configuration Tool](https://github.com/danielnilsson9/bbshd-fw/wiki/Configuration-Tool)  
 [Flashing the Firmware](https://github.com/danielnilsson9/bbshd-fw/wiki/Flashing-the-Firmware)
+[Upgrading Firmware Version](https://github.com/danielnilsson9/bbs-fw/wiki/Upgrading-Firmware-Version)
 
 ## Build from Source
 [Build from Source](https://github.com/danielnilsson9/bbshd-fw/wiki/Build-from-Source)
