@@ -66,7 +66,7 @@ Uncheck if you want to disable the walk mode function. Using walk mode without a
 
 `Default: true`
 
-**Temperature Sensor**  
+**Temperature Sensors**  
 Select which temperature sensors to use. The BBSHD has two temperature sensors, one in the controller and another inside the motor core.
 BBS02 only has a single temperature sensor in the controller. This setting should normally be set to "All" but if any of your temperature sensors are broken you can disable it here.
 
