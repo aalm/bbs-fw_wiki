@@ -30,6 +30,11 @@ Current ramp up in Amps per second when engaging PAS or Cruise. This parameter c
 
 `Default: 15`
 
+**Max Battery Voltage**  
+Maximum voltage of your battery, used for battery SOC(%) calculation.
+
+`Default: 54.6`
+
 **Low Voltage Cutoff**  
 Low voltage detection for when to cut power to motor to protect battery. A value of 42V is reasonable for a 52V battery.
 
