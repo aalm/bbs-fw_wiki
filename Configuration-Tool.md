@@ -61,8 +61,8 @@ If your speed sensor malfunctions your motor will still work even if this box is
 
 `Default: true`
 
-**Push Walk**  
-Uncheck if you want to disable the push walk function. Using push walk without a speed sensor will not be ideal.
+**Walk Mode**  
+Uncheck if you want to disable the walk mode function. Using walk mode without a speed sensor will not be ideal.
 
 `Default: true`
 
