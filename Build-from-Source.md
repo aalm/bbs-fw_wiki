@@ -7,6 +7,7 @@
 1. Install SDCC, make sure to check the box to add the compiler to your PATH
 2. Install Make for Windows (not needed if you already have make through cygwin/msys2 etc.)
 3. Open cmd window and run make inside the firmware source directory
+4. The built firmware file is named "main.hex".
 
 ## Build Configuration Tool
 1. Open configuration tool solution in Visual Studio
