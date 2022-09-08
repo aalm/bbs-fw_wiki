@@ -1,6 +1,6 @@
 Use the following procedure when upgrading BBS-FW Version:
 
-1. Download the latest release package from [here](https://github.com/danielnilsson9/bbs-fw/releases)
+1. Download the latest release package from [here](https://github.com/danielnilsson9/bbs-fw/releases).
 2. Connect your controller to your computer using the programming cable.
 3. Start the configuration tool for the new firmware version and connect to your controller.
 4. Read current configured options from flash by selecting Menu -> Flash -> Read.
