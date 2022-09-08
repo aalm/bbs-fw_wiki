@@ -8,5 +8,5 @@ Use the following procedure when upgrading BBS-FW Version:
 6. Disconnect from controller in the configuration tool but leave the window open.
 7. Flash new firmware version using [this procedure](https://github.com/danielnilsson9/bbs-fw/wiki/Flashing-the-Firmware).
 8. Connect to your controller again using the configuration tool.
-9. Select Menu -> Flash -> Write to save your old settings to the controller again.
+9. Select Menu -> Flash -> Write to write your old settings to the controller again.
 If the operation fails, correct the reported configuration errors and try again.
