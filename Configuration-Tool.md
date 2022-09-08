@@ -119,6 +119,7 @@ Stop delay in milliseconds for when PAS shall disengage when no pedaling is dete
 **Show Temperature during Walk Mode**  
 If this option is selected and walk mode is engaged the highest temperature from any of the temperature sensors will be displayed in the speed field on the display. The temperature will be displayed in Celsius independently of unit settings since the field is limited to two digits.
 
+`Default: false`
 
 ## Assist Levels
 [[/img/config_tool/config_tool4.png|Assist Levels]]
