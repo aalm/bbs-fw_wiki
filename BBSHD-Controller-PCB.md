@@ -55,7 +55,7 @@ P120 | IN    | Hall U                 | Hall effect sensor signal U.
 P121 | IN    | Hall W                 | Hall effect sensor signal W.
 P122 | IN    | Hall V                 | Hall effect sensor signal V.
 P150 | IN    | Motor power enable     | Signal from STC MCU to enable motor power.
-?    | IN    | Battery voltage        | Not traced
+P151 | IN    | Battery voltage        | Also connected to STC MCU
 
 
 ## Photos
