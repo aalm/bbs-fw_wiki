@@ -6,7 +6,7 @@ If you have any other BBSHD controller revision than 1.4 or 1.5, DO NOT PROCEED 
 If you have verified this firmware working on older BBSHD controller revisions, please let me know.  
 If you have an older revision, run "Check MCU" and let me know the output and I may be able to tell if is could work or not.
 
-I am not responsible if you brick your controller, but it is quite unlikely if you follow this guide closely.
+I am not responsible if you brick your controller, but it is unlikely if you follow this guide closely.
 
 ## Requirements
 
