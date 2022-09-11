@@ -14,6 +14,8 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 * Programming Cable
 
 ## Download and Flash
+[[/img/flash_tool.png|Flash Tool]]
+
 1. Download and start the STC ISP Programming Tool (v6.88, do not update). 
 2. Download the latest released firmware from the [release page](https://github.com/danielnilsson9/bbshd-fw/releases).
 3. Extract the archive and locate the firmware .hex file intended for your controller type.
@@ -33,8 +35,6 @@ NOTE: Selected MCU Type in image below is for BBSHD controller revision 1.5.
 
 
 If it fails, try again, it is a bit unstable.
-
-[[/img/flash_tool.png|Flash Tool]]
 
 ## Linux
 If you are running Linux you can try using the open source stcgal flashing software.  
