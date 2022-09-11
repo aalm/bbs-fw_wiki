@@ -9,7 +9,6 @@ V1.5     | IAP15W4K61S4 | ~2019       | V1.4 printed on PCB
 
 
 Nothing noticeable changed on PCB:s, pin compataible MCU.  
-Different firmware required due to small change in eeprom layout.
 
 
 ## Microcontrollers
