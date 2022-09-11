@@ -14,7 +14,7 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 * Programming Cable
 
 ## Download and Flash
-1. Download and start the STC ISP Programming Tool (v6.88). 
+1. Download and start the STC ISP Programming Tool (v6.88, do not update). 
 2. Download the latest released firmware from the [release page](https://github.com/danielnilsson9/bbshd-fw/releases).
 3. Extract the archive and locate the firmware .hex file intended for your controller type.
 4. Connect your controller to your computer using the programming cable.
