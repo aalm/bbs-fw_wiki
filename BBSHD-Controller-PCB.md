@@ -8,7 +8,7 @@ V1.4     | STC15W4K56S4 | ~2017       | V1.3 printed on PCB
 V1.5     | IAP15W4K61S4 | ~2019       | V1.4 printed on PCB
 
 
-Nothing noticeable changed on PCB:s, pin compataible MCU.  
+Nothing noticeable changed on PCB:s, pin compatible MCU.  
 
 
 ## Microcontrollers
