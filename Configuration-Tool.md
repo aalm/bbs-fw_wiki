@@ -30,6 +30,11 @@ Current ramp up in Amps per second when engaging PAS or Cruise. This parameter c
 
 `Default: 15`
 
+**Max Battery Voltage**  
+Maximum voltage of your battery, used for battery SOC(%) calculation.
+
+`Default: 54.6`
+
 **Low Voltage Cutoff**  
 Low voltage detection for when to cut power to motor to protect battery. A value of 42V is reasonable for a 52V battery.
 
@@ -56,10 +61,16 @@ If your speed sensor malfunctions your motor will still work even if this box is
 
 `Default: true`
 
-**Push Walk**  
-Uncheck if you want to disable the push walk function. Using push walk without a speed sensor will not be ideal.
+**Walk Mode**  
+Uncheck if you want to disable the walk mode function. Using walk mode without a speed sensor will not be ideal.
 
 `Default: true`
+
+**Temperature Sensor**  
+Select which temperature sensors to use. The BBSHD has two temperature sensors, one in the controller and another inside the motor core.
+BBS02 only has a single temperature sensor in the controller. This setting should normally be set to "All" but if any of your temperature sensors have  malfunctioned you can disable it here.
+
+`Default: All`
 
 ### Throttle
 
@@ -103,6 +114,12 @@ Stop delay in milliseconds for when PAS shall disengage when no pedaling is dete
 
 `Default: 200`
 
+### Miscellaneous
+
+**Show Temperature during Walk Mode**  
+If this option is selected and walk mode is engaged the highest temperature from any of the temperature sensors will be displayed in the speed field on the display. The temperature will be displayed in Celsius independently of unit settings since the field is limited to two digits.
+
+`Default: false`
 
 ## Assist Levels
 [[/img/config_tool/config_tool4.png|Assist Levels]]
