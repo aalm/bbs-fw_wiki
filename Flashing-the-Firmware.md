@@ -24,6 +24,7 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 Log should say "Complete!" if connection was successful and the MCU type should be printed in the log.
 8. Verify that the printed MCU type is one of the supported ones in table [here](https://github.com/danielnilsson9/bbshd-fw/wiki/BBSHD-Controller-PCB), do not proceed if incorrect.
 9. Set flashing parameters according to image below (very important!), pay special attention to highlighted areas.  
+**Remember to set Input IRC Frequency to to 20MHz**  
 NOTE: Selected MCU Type in image below is for BBSHD controller revision 1.5.
 10. Open firmware file by clicking "Open Code File" button.
 11. Power of controller.
