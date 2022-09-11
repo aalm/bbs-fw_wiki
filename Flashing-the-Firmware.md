@@ -6,7 +6,7 @@ If you have any other BBSHD controller revision than 1.4 or 1.5, DO NOT PROCEED 
 If you have verified this firmware working on older BBSHD controller revisions, please let me know.  
 If you have an older revision, run "Check MCU" and let me know the output and I may be able to tell if is could work or not.
 
-I am not responsible if you brick your controller, but it is quite unlikely if you follow this guide.
+I am not responsible if you brick your controller, but it is unlikely if you follow this guide closely.
 
 ## Requirements
 
@@ -14,7 +14,9 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 * Programming Cable
 
 ## Download and Flash
-1. Download and start the STC ISP Programming Tool (v6.88). 
+[[/img/flash_tool.png|Flash Tool]]
+
+1. Download and start the STC ISP Programming Tool (v6.88, do not update). 
 2. Download the latest released firmware from the [release page](https://github.com/danielnilsson9/bbshd-fw/releases).
 3. Extract the archive and locate the firmware .hex file intended for your controller type.
 4. Connect your controller to your computer using the programming cable.
@@ -22,8 +24,9 @@ I am not responsible if you brick your controller, but it is quite unlikely if y
 6. Power of your controller. 
 7. Click "Check MCU" and then power on your controller to verify.  
 Log should say "Complete!" if connection was successful and the MCU type should be printed in the log.
-8. Verify that the printed MCU type is one of the supported ones in table [here](https://github.com/danielnilsson9/bbshd-fw/wiki/BBSHD-Controller-PCB), do not proceed if incorrect.
+8. Verify that the printed MCU type is one of the supported ones in tables [here](https://github.com/danielnilsson9/bbs-fw/blob/master/README.md), do not proceed if incorrect.
 9. Set flashing parameters according to image below (very important!), pay special attention to highlighted areas.  
+**Remember to set Input IRC Frequency to to 20MHz**  
 NOTE: Selected MCU Type in image below is for BBSHD controller revision 1.5.
 10. Open firmware file by clicking "Open Code File" button.
 11. Power of controller.
@@ -32,8 +35,6 @@ NOTE: Selected MCU Type in image below is for BBSHD controller revision 1.5.
 
 
 If it fails, try again, it is a bit unstable.
-
-[[/img/flash_tool.png|Flash Tool]]
 
 ## Linux
 If you are running Linux you can try using the open source stcgal flashing software.  

@@ -8,8 +8,7 @@ V1.4     | STC15W4K56S4 | ~2017       | V1.3 printed on PCB
 V1.5     | IAP15W4K61S4 | ~2019       | V1.4 printed on PCB
 
 
-Nothing noticeable changed on PCB:s, pin compataible MCU.  
-Different firmware required due to small change in eeprom layout.
+Nothing noticeable changed on PCB:s, pin compatible MCU.  
 
 
 ## Microcontrollers
@@ -56,7 +55,7 @@ P120 | IN    | Hall U                 | Hall effect sensor signal U.
 P121 | IN    | Hall W                 | Hall effect sensor signal W.
 P122 | IN    | Hall V                 | Hall effect sensor signal V.
 P150 | IN    | Motor power enable     | Signal from STC MCU to enable motor power.
-?    | IN    | Battery voltage        | Not traced
+P151 | IN    | Battery voltage        | Also connected to STC MCU
 
 
 ## Photos
