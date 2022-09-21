@@ -1,6 +1,5 @@
 ## Warning
 Proceed with caution. It is a good idea to have access to the original firmware if you for any reason want to roll back.
-Contact me if you need help with this.
 
 If you have any other BBSHD controller revision than 1.4 or 1.5, DO NOT PROCEED unless you can accept bricking your controller.  
 If you have verified this firmware working on older BBSHD controller revisions, please let me know.  
