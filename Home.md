@@ -1,4 +1,4 @@
-## Using BBSHD-FW
+## Using BBS-FW
 [Configuration Tool](https://github.com/danielnilsson9/bbshd-fw/wiki/Configuration-Tool)  
 [Flashing the Firmware](https://github.com/danielnilsson9/bbshd-fw/wiki/Flashing-the-Firmware)  
 [Upgrading Firmware Version](https://github.com/danielnilsson9/bbs-fw/wiki/Upgrading-Firmware-Version)
