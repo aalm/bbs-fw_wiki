@@ -69,17 +69,24 @@ Request  | Response | Interpretation
 
 ### Status Flags
 
-#### Byte 1
+Bit    | Description
+-------| --------------------
+0x0001 | -
+0x0002 | -
+0x0004 | Current sense resistor fault
+0x0008 | -
+0x0010 | -
+0x0020 | Speculation: Overcurrent fault (seen on BBS02)
+0x0040 | -
+0x0080 | Unknown, observed when current sensor error is present on boot, cleared when motor power is applied.
+0x0100 | Braking
+0x0200 | -
+0x0400 | Motor control disabled
+0x0800 | Low voltage protection
+0x1000 | -
+0x2000 | Hall sensor fault
+0x4000 | -
+0x8000 | -
 
-B7 | B6 | B5                | B4 | B3                 | B2                     | B1 | B0
--- | -- | ----------------- | -- | ------------------ | ---------------------- | -- | --------------------
- ? | ?  | Hall Sensor Fault | ?  | Low Voltage Cutoff | Motor Ctrl Disabled    | ?  | Brake
- 
- #### Byte 2
-
-B7 | B6 | B5 | B4 | B | B2                   | B1 | B0
--- | ---| -- | -- | - | -------------------- | -- | --
- ? | ?  | ?  | ?  | ? | Current Sense Fault  | ?  | ?
-
-Bit 7 of byte 2 is set initially on startup if current sense error is present. Cleared when motor move signal is received leaving only current sense error. There is supposed to be a motor phase error code according to the display error list but I cannot triggers it in any way to find it.
+There is supposed to be a motor phase error code according to the display error list but I cannot triggers it in any way to find it.
 It might not be present on the BBS line or the fault detection was implemented in the STC microcontroller.
