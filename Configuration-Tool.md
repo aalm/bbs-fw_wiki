@@ -23,7 +23,7 @@ If everything works it should now say "Connected: Yes" and report the current fi
 **Max Current**  
 Maximum current to draw from the battery, max 33A  (limited by secondary NEC microcontroller, cannot be increased further). 
 
-**_WARNING:_** Maximum current can be set as high as 33A for BBS02 but I seriously advice against that as there is a good chance you will break your motor!
+**_WARNING:_** Maximum current can be set as high as 33A for BBS02 but I seriously advice against that as there is a good chance you will break your motor! I fault has been observed on BBS02 when setting higher current, possible some form of hard overcurrent protection. If this is triggered power will be cut for a few seconds, lower you maximum current to avoid.
 
 `Default: 30`
 
