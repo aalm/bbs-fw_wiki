@@ -143,9 +143,9 @@ If this option is selected and walk mode is engaged the highest temperature from
 ## Assist Levels
 [[/img/config_tool/config_tool4.png|Assist Levels]]
 
-Using this firmware makes it possible to use two sets of assist level configurations. The intended use case is to have a "street legal" mode along with an "off-road" mode switchable using the display remote.
+Using this firmware makes it possible to use two sets of assist level configurations. The intended use case is to have a "standard" mode along with a "sport" mode switchable using the display remote.
 
-In the configuration tool this is called "Operation Mode". By selecting the "Operation Mode Page" from the drop down you can edit each set of assist levels individually.
+In the configuration tool this is called "Operation Mode". By selecting the "Operation Mode Page" from the drop down you can edit each set of assist levels individually. The controller will always start up in standard operation mode when powered on.
 
 How operation mode switching is performed is set by the "Operation Mode Toggle" drop down.
 
@@ -154,14 +154,13 @@ How operation mode switching is performed is set by the "Operation Mode Toggle" 
 Assist level type can be any of:
 * Motor Disabled
   - Disable motor power.
-* PAS
-  - Only use PAS, disable throttle.
-* Throttle Only
+* PAS  
+  Multiple variants:
+  - Cadence: Cadence based pedal assist.
+  - Torque: Torque based pedal assist. Only available on motors with torque sensor (TSDZ2).
+  - Variable: Pedal assist mode where throttle is used to control assist power (use throttle, but only while pedaling).
+* Throttle
   - Only use throttle, disable PAS.
-* PAS & Throttle
-  - Use both PAS and throttle, throttle overrides PAS when throttle power is greater than PAS power.
-* Variable PAS
-  - Pedal assist mode where throttle is used to change assist power. Basically behaves as a throttle mode where you have to pedal to receive any power.
 * Cruise
   - See info below.
 
@@ -181,22 +180,35 @@ To engage motor power:
 To disengage cruise:  
 Pedal backwards, touch throttle or break (requires break sensors).
 
-
-**Target Power**  
-Target power for the assist level, only applies to PAS, Variable PAS and Cruise. This is the % of max current that will be feed to the motor for this assist level. In case of Variable PAS, this is the maximum power you will receive when throttle is fully pressed.
-
-**Max Throttle**  
-This is the % of max current that will be feed to the motor when max throttle is applied. Only applies to throttle assist levels.
+**Max Current**  
+Target power. This is the % of max current that will be feed to the motor for this assist level. In case of Variable PAS, this is the maximum power you will receive when throttle is fully pressed.
 
 **Max Cadence**  
 Cadence in % of maximum. This parameter controls how fast the pedals are allowed to spin. Max cadence for BBSHD is around 150rpm. This parameter was called "speed" in the original Bafang firmware.
 
 **Max Speed**  
-This is the % of max configured road speed for this assist level. Going faster than this will reduce motor power.
+This is the % of max configured road speed for this assist level. Going faster than this will reduce motor power if speed sensor is enabled.
 
 Example:  
 If global max speed is configured to 100km/h and this is  
 configured to 25% then max speed is 25km/h.
+
+**Torque Amplification**  
+Only for "Torque" variant available on motors with torque sensor (TSDZ2). This is the power amplification factor for this assist level.
+
+Example:  
+100W human power applied with a torque amplification factor of 2 will give a target motor power output of 200W.
+
+**Enable Throttle**  
+Enable use of throttle while in this assist level.
+
+**Cadence Override**  
+Override cadence limit to 100% when requested throttle power exceeds assist level power (i.e. when throttle overrides PAS).
+
+**Max Throttle Current**  
+This is the % of max current that will be feed to the motor when max throttle is applied.
+
+
 
 **Operation Mode Toggle**  
 Select how to toggle between the two operation modes.
