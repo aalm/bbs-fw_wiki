@@ -98,6 +98,17 @@ Number of speed sensor signals per wheel rotation. Set this to the number of eve
 
 `Default: 1`
 
+### Shift Sensor
+
+**Shift Interrupt Duration (ms)**  
+Duration in milliseconds of the power interrupt that should occur when signal from shift sensor is activated.  
+
+`Default: 600`
+
+**Shift Current Threshold (%)**  
+Maximum motor current during shifting expressed as a percentage of "Max Current (A)". If motor current is below this threshold, then no power cut will happen. If motor current is higher than this threshold, then current will be reduced to this value during the shift.  
+
+`Default: 10`
 
 ### Pedal Assist
 
