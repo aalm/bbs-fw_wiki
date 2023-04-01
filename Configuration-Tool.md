@@ -122,6 +122,17 @@ Stop delay in milliseconds for when PAS shall disengage when no pedaling is dete
 
 `Default: 200`
 
+**Keep Current (%)**  
+Keep this motor current in percent of assist level target current when target cadence of assist level has been reached.
+The assist level current will start ramp down towards this value when cadence hits the limit configured in 'Keep Current Cadence (rpm)'.  
+
+`Default: 60`
+
+**Keep Current Cadence (rpm)**  
+Lower cadence limit for when 'Keep Current %' ramp starts, configured in rpm. When cadence gets above this value the motor current will decrease towards the current calculated using configured value of 'Keep Current %'.
+
+`Default: 40`
+
 ### Miscellaneous
 
 **Show Temperature during Walk Mode**  
