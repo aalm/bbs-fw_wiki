@@ -126,6 +126,8 @@ Stop delay in milliseconds for when PAS shall disengage when no pedaling is dete
 Keep this motor current in percent of assist level target current when target cadence of assist level has been reached.
 The assist level current will start ramp down towards this value when cadence hits the limit configured in 'Keep Current Cadence (rpm)'.  
 
+This option only affects cadence based pedal assist levels and does nothing on torque based assist levels.
+
 `Default: 60`
 
 **Keep Current Cadence (rpm)**  
