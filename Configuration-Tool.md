@@ -48,13 +48,6 @@ Maximum speed (if using speed sensor) in km/h. Units can be change to imperial f
 `Default: 100`
 
 ### Features
-**Use Display**  
-Uncheck if you are not using a display. A display is not required, if the display malfunctions the motor will still work (even if this is checked) using your startup configuration set in the "Assist Levels" tab.
-
-_**NOTE:**_ If you want to run without a display you need a cable to bridge the brown and orange wires of the display cable plug (green) in order to provide power to the controller.
-[[/img/wiring.jpg|Wiring]]
-
-`Default: true`
 
 **Speed Sensor**  
 Uncheck if you do not intend to use the speed sensor. Configured max speed will then have no effect.
@@ -65,6 +58,8 @@ If your speed sensor malfunctions your motor will still work even if this box is
 
 **Walk Mode**  
 Uncheck if you want to disable the walk mode function. Using walk mode without a speed sensor will not be ideal.
+When walk mode is disabled in configuration but activated by command from the display the previously selected
+assist level will continue to be used.
 
 `Default: true`
 
