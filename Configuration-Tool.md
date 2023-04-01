@@ -137,10 +137,16 @@ Lower cadence limit for when 'Keep Current %' ramp starts, configured in rpm. Wh
 
 ### Miscellaneous
 
-**Show Temperature during Walk Mode**  
-If this option is selected and walk mode is engaged the highest temperature from any of the temperature sensors will be displayed in the speed field on the display. The temperature will be displayed in Celsius independently of unit settings since the field is limited to two digits.
+**Walk Mode Data Display**  
+Override what is displayed in the speed field on the display while walk assist is engaged.
 
-`Default: false`
+_Temperature_  
+If this option is selected and walk assist is engaged the highest temperature from any of the temperature sensors will be displayed in the speed field on the display. The temperature will be displayed in Celsius independently of unit settings since the field is limited to two digits.
+
+_Requested Power_  
+Show requested motor power in percent set by firmware. Mainly useful for debugging loss of power issues while riding.
+
+`Default: Speed`
 
 ## Assist Levels
 [[/img/config_tool/config_tool4.png|Assist Levels]]
